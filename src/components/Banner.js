@@ -16,7 +16,7 @@ export default function Banner(){
             style={{objectFit: 'cover'}}
             />
             <div className={styles.overlay}>
-                <h1 className={styles.title}>O mlehor Hambúrguer da Cidade!</h1>
+                <h1 className={styles.title}>O melhor Hambúrguer da Cidade!</h1>
                 <p className={styles.text}>Sabor inigualável, ingredientes frescos e uma experiência única para seu paladar.</p>
                 <button className={styles.button} onClick={()=> setShowPromo(true)}>Ver promoção</button>
             </div>
